@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kafkaproducerwikimedia"
+version = "0.1.0"
+description = ""
+authors = ["alper <alper@cloudai.solutions>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+confluent-kafka = "^2.4.0"
+colorlog = "^6.8.2"
+sseclient-py = "^1.8.0"
+requests = "^2.32.3"
+httpx = "^0.27.0"
+opensearch-py = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
