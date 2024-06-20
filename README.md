@@ -53,6 +53,13 @@ Visit http://localhost:5601/app/dev_tools#/console
 and execute GET /wikimedia/_doc/523744398 to fetch relevant documents.
 
 
+### 8. Run
+
+run consumer.py on the terminal and on the other terminal run producer.py and its all done.
+
+
+
+
 ## **Additional Configuration (Kafka Host Mapping)**
 
 For proper Kafka functionality on localhost (temporary setup):
